@@ -1,4 +1,4 @@
-//a more powerful rotary enigma cracker, rotary_enigma_cracker.c by Denisov Arsene, a Primary Cause, GNU GPL license
+//a more powerful rotary enigma cracker, rotary_enigma_cracker.c by Denisov Arsene, an ET, GNU GPL license
 
 #include <math.h>
 #include <stdio.h>
