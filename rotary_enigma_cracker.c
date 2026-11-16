@@ -1,4 +1,4 @@
-//a more powerful rotary enigma cracker, rotary_enigma_cracker.c by Denisov Arsene, an ET, GNU GPL license
+//a more powerful rotary enigma cracker, rotary_enigma_cracker.c by Denisov Arsene, white hat hacker, GNU GPL license
 
 #include <math.h>
 #include <stdio.h>
@@ -9,7 +9,7 @@ int main()
     int enigma_length = 5;
     int characters_length = 5;
     int power_of_rotations = 2;
-    char* enigma = (char*)malloc(enigma_length);
+    char* enigma = (char*)malloc(enigma_length); //add primary number enigma here too
     char* message = " : enigma rotation performed : ";
     int i = 0;
 
