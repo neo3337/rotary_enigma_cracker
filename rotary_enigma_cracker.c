@@ -49,8 +49,6 @@ int* first_n_prime_generator(int n)
             }
         }
     }
-
-    return 0;
 }
 
 
