@@ -1,4 +1,4 @@
-//a more powerful rotary enigma with prime division cracker, rotary_enigma_cracker.c by Denisov Arsene, white hat hacker, GNU GPL license
+//a more powerful rotary enigma with prime division cracker, rotary_enigma_cracker.c by Arsene Denisov, a cybersecurity expert, GNU GPL license
 
 #include <math.h>
 #include <stdio.h>
