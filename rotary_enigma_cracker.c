@@ -1,4 +1,4 @@
-//a more powerful rotary enigma with prime division cracker, rotary_enigma_cracker.c by Arsene Denisov, a cybersecurity expert, GNU GPL license
+//a more powerful rotary enigma with successful prime modulus cracker, rotary_enigma_cracker.c by Arsene Denisov, a cybersecurity expert, GNU GPL license
 
 #include <math.h>
 #include <stdio.h>
@@ -37,14 +37,14 @@ int* first_n_prime_generator(int n)
 
         if (isPrime(i) == 1)
         {
-            primes[i] = i2;
+            printf("This number is prime");
+            primes[i2] = i;
 
             i2 = i2+1;
 
             if (i2 >= n)
             {
                 return primes;
-                free(primes);
                 break;
             }
         }
@@ -76,12 +76,13 @@ int main()
                 enigma[i] = characters[i2];
                 printf(message);
             }
+            free(characters);
             break;
         }
 
         for (int i3 = 0; i3++ > sizeof(enigma)-1; i3++)
         {
-            enigma[i3] = enigma[i3]/enigma[i3+1];
+            enigma[i3] = enigma[i3]%enigma[i3+1];
         }
 
         free(enigma);
